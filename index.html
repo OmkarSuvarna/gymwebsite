@@ -8,92 +8,64 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Gym Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Gym Bros</title>
   </head>
   <body>
-    <header>
-      <img src="images/logo.png" alt="logo" class="logo" />
-      <nav>
-        <ul class="navigation-bar">
-          <li>Search</li>
-          <li><input type="search" name="?" class="search-bar" /></li>
-          <li class="material-symbols-outlined">Search</li>
+    <nav class="navbar">
+      <div class="nav-logo">
+        <img src="images/logo2.png" alt="" class="logo" />
+      </div>
+      <div class="nav-search">
+        <input
+          type="text"
+          placeholder="Search.."
+          name="search"
+          class="search-bar"
+        />
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        </button>
+      </div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="nav-links">
+        <ul>
           <li><a href="#"> Home </a></li>
           <li><a href="product.html"> Product </a></li>
+          <li><a href="#"> About Us </a></li>
           <li><a href="#"> Contact </a></li>
         </ul>
-      </nav>
-    </header>
-    <!-- <header id="nav-wrapper">
-      <nav id="nav">
-        <div class="nav left">
-          <span class="gradient skew"
-            ><h1 class="logo un-skew"><a href="#home">Logo Here</a></h1></span
-          >
-          <button id="menu" class="btn-nav">
-            <span class="fas fa-bars"></span>
-          </button>
-        </div>
-        <div class="nav right">
-          <a href="#home" class="nav-link active"
-            ><span class="nav-link-span"
-              ><span class="u-nav">Home</span></span
-            ></a
-          >
-          <a href="#about" class="nav-link"
-            ><span class="nav-link-span"
-              ><span class="u-nav">About</span></span
-            ></a
-          >
-          <a href="#work" class="nav-link"
-            ><span class="nav-link-span"
-              ><span class="u-nav">Work</span></span
-            ></a
-          >
-          <a href="#contact" class="nav-link">
-            <span class="nav-link-span">
-              <span class="u-nav">Contact</span>
-            </span>
-          </a>
-        </div>
-      </nav> -->
-    <!-- <div>
-      <span class="material-symbols-outlined"> arrow_back_ios </span>
-      <span class="material-symbols-outlined"> arrow_forward_ios </span>
-      <ul>
-        <li class="carousel-images">
-          <img src="images/image1.jpg" alt="pic1" />
-        </li>
-        <li class="carousel-images">
-          <img src="images/image2.jpg" alt="pic1" />
-        </li>
-        <li class="carousel-images">
-          <img src="images/image3.jpg" alt="pic1" />
-        </li>
-        <li class="carousel-images">
-          <img src="images/image4.jpg" alt="pic1" />
-        </li>
-      </ul>
-    </div> -->
+      </div>
+    </nav>
     <div class="slideshow-container">
-      <span class="material-symbols-outlined"> arrow_back_ios </span>
-      <span class="material-symbols-outlined"> arrow_forward_ios </span>
-      <div>
-        <div class="carousel-images fade">
-          <img src="images/image1.jpg" alt="logo" class="images" />
-          <!-- <div class="carousel-text">Remove/Add Text</div> -->
-        </div>
-        <div class="carousel-images fade">
-          <img src="images/image2.jpg" alt="logo" class="images" />
-        </div>
-        <div class="carousel-images fade">
-          <img src="images/image3.jpg" alt="logo" class="images" />
-        </div>
+      <span class="material-symbols-outlined arrow"> arrow_back_ios </span>
+      <span class="material-symbols-outlined arrow arrow-right">
+        arrow_forward_ios
+      </span>
+      <div class="carousel-images fade">
+        <img src="images/image1.jpg" alt="logo" class="images" />
+        <!-- <div class="carousel-text">Remove/Add Text</div> -->
+      </div>
+      <div class="carousel-images fade">
+        <img src="images/image2.jpg" alt="logo" class="images" />
+      </div>
+      <div class="carousel-images fade">
+        <img src="images/image3.jpg" alt="logo" class="images" />
       </div>
       <div class="dot-all">
-        <span class="material-symbols-outlined dot"> fiber_manual_record </span>
-        <span class="material-symbols-outlined dot"> fiber_manual_record </span>
-        <span class="material-symbols-outlined dot"> fiber_manual_record </span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
       </div>
     </div>
     <div class="about-us">

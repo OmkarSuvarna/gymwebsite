@@ -1,5 +1,12 @@
 "use strict";
 
+const toggleButton = document.getElementsByClassName("toggle-button")[0];
+const navbarLinks = document.getElementsByClassName("nav-links")[0];
+
+toggleButton.addEventListener("click", () => {
+  navbarLinks.classList.toggle("active");
+});
+
 let slideIndex = 0;
 
 let showSlides = function () {
@@ -9,7 +16,6 @@ let showSlides = function () {
 
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
-    console.log(slides[i].style);
   }
   slideIndex++;
   if (slideIndex > slides.length) {

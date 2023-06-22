@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<phone_book>
+<contact>
+<name>John Doe</name>
+<email>john.doe@gmail.com</email>
+<phone>9090909090</phone>
+</contact>
+<contact>
+<name>
+<firstname>Jane</firstname>
+<lastname>Doe</lastname>
+</name>
+<email>jane.doe@gmail.com</email>
+<phone>8080808080</phone>
+</contact>
+</phone_book>
